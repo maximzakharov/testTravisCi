@@ -17,7 +17,7 @@ TEST_GROUP(FirstTestGroup)
 
 TEST(FirstTestGroup, FirstTest)
 {
-   CHECK(true);
+   CHECK(false);
 }
 
 
