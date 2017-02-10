@@ -2,8 +2,12 @@ language: c
 compiler:
   - gcc
 before_install:
-- sudo apt-get -qq update
-- sudo apt-get install cpputest -y
+- git clone https://github.com/cpputest/cpputest.git
+- cd cpputest
+- ./autogen.sh
+- ./configure
+- make
+- sudo make install
 
 script: make && make test 
 # uncomment and edit the following line if your project needs to run something other than `rake`:
