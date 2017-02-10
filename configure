@@ -8,4 +8,4 @@ cd cpputest
 ./autogen.sh
 ./configure
 make
-sudo make install
+# sudo make install
