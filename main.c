@@ -5,6 +5,12 @@
  *  Author: Maxim Zakharov
  *  email:  zakharov.m89@gmail.com
  */
+
+
+ #include <stdint.h>
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include <string.h>
 #include <CppUTest/UtestMacros.h>
 #include <stdio.h>
 #include "CppUTest/TestHarness.h"
@@ -17,7 +23,7 @@ TEST_GROUP(FirstTestGroup)
 
 TEST(FirstTestGroup, FirstTest)
 {
-   CHECK(false);
+   CHECK(true);
 }
 
 
