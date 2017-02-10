@@ -26,6 +26,11 @@ TEST(FirstTestGroup, FirstTest)
    CHECK(true);
 }
 
+TEST(FirstTestGroup, SecondTest)
+{
+   CHECK(1==1);
+}
+
 
 int main(int argc, const char * argv[]) {
 	return CommandLineTestRunner::RunAllTests(argc, argv);
