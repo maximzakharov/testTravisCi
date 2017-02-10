@@ -3,6 +3,7 @@ compiler:
   - gcc
 before_install:
 - sudo apt-get -qq update
+- sudo apt-get install cpputest -y
 
 script: make && make test 
 # uncomment and edit the following line if your project needs to run something other than `rake`:
