@@ -8,8 +8,7 @@ before_install:
 - ./configure
 - make
 - sudo make install
-- cd
-- echo ls
+- cd ../
 - ls
 
 script: make && make test 
