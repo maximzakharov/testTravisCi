@@ -33,7 +33,7 @@ TEST(FirstTestGroup, SecondTest)
 
 TEST(FirstTestGroup, OtherTest)
 {
-   CHECK(2==2);
+   CHECK_TEXT("hello", "Hello2");
 }
 
 
